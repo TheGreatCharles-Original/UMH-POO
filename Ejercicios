@@ -1,1 +1,19 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int valorHora = 70;
+        int horasTrabajadas;
+        int devengado;
+
+        Console.WriteLine("Bienvenido Carlos, por favor ingresa las horas que trabajaste esta semana:");
+        horasTrabajadas = int.Parse(Console.ReadLine());
+
+        devengado = valorHora * horasTrabajadas;
+
+        Console.WriteLine("Tu sueldo correspondiente es: " + devengado);
+    }
+}
 
